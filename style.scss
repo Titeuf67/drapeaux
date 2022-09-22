@@ -1,0 +1,119 @@
+body {
+    section {
+        #inline {
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        // france
+
+        #france {
+            height: 200px;
+            width: 20%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+            #bleu {
+                background-color: blue;
+                width: 33%;
+            }
+
+            #blanc {
+                background-color: white;
+                width: 33%;
+
+
+            }
+
+            #rouge {
+
+                background-color: red;
+                width: 33%;
+            }
+
+        }
+
+        // allemagne
+        #allemagne {
+            height: 200px;
+            margin: auto;
+            width:20%;
+
+            #noir {
+                background-color: black;
+                height: 33%;
+            }
+
+            #rouge {
+                background-color: red;
+                height: 33%;
+            }
+
+            #jaune {
+                background-color: yellow;
+                height: 33%;
+            }
+        }
+
+        // canada
+        #canada {
+            height: 200px;
+            width: 20%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+
+            #blancbis {
+                background-color: white;
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    color: red;
+                    font-size: 2em;
+                }
+            }
+
+            #rouge {
+
+                background-color: red;
+                width: 30%;
+            }
+
+        }
+
+        // liban
+        #liban {
+            height: 200px;
+            margin: auto;
+            width: 20%;
+            border: 2px solid black;
+
+
+
+            #rouge {
+                background-color: red;
+                height: 30%;
+            }
+
+            #blanc {
+                background-color: white;
+                height: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    font-size: 30px;
+                    color: green;
+                }
+            }
+        }
+    }
+
+}
